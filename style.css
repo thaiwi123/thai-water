@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+#wrapper {
+    width: 100%;
+    height: 1oovh;
+}
+#header {
+    width: 100%;
+    padding: 0px 25px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bg {
+    list-style: none;
+    display: flex;
+}
+#bg .taikhoan {
+    margin: 0px 35px;
+}
+#bg .taikhoan a {
+    color: #626262;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#bg .taikhoan :hover {
+    color: red;
+}
+
+
+
+#banner {
+    width: 100%;
+    background-image: url(hình/tunhien.jpg);
+    height: 463px;
+    margin-top: 40px ;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+}
+#banner .box-left ,#banner .box-right{
+    width: 50%;
+}
+#banner .box-left h2 {
+    font-size: 48px;
+    margin-top: 75px;
+    color: #FFF;
+}
+#banner .box-left p {
+    color: #d0d0d0;
+}
+#banner .box-left button {
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;
+    background: #1d1a1a;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: bold;
+    border-radius: 20px;
+    transition: 0,4s ;
+}
+#banner .box-left button:hover {
+    background: #00FFFF;
+}
+#banner .box-right img {
+    margin:  30px;
+    padding: 20px;
+    width: 450px;
+}
+
+#wp-products {
+    padding-top: 50px;
+    padding-bottom: 78px ;
+    padding-left: 134px;
+    padding-right: 134px;
+}
+
+#wp-products h2 {
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 32px;
+    color: #2b8d55;
+
+}
+#wp-products .item a {
+    color: #1d1a1a;
+    text-decoration: none;
+}
+
+
+#comment {
+    width: 1021px;
+    height: 471px;
+    margin: 0px auto;
+    margin-top: 184px;
+    margin-bottom: 50px;
+}
+#comment h2 {
+    text-align: center;
+    margin-bottom: 50px ;
+    font-size: 32px;
+    color: #2b8d55;
+}
+#comment-body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 1000px;
+    height: 400px;
+    list-style: none;
+    overflow: hidden;
+}
+#list-comment {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    transition: 0.5s ;
+}
+#list-comment .item {
+    width: 100%;
+    height: 100%;
+    background: #C0C0C0;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+#list-comment .item .avatar {
+    text-align: center;
+    margin-top: 13px;
+}
+#list-comment .item .stars {
+    display: flex;
+    margin: 0px auto;
+    width: 50%;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+}
+#list-comment .item .name {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
+#list-comment .item .text {
+    padding: 20px 50px;
+    color: #FFF;
+}
+
+
+#footer {
+    width: 100%;
+    background: #d0e3d8	;
+    height: 322px;
+    margin-top: 200px;
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+}
+#footer .box {
+    width: 250px;
+    color: #204f1a;
+}
+#footer .box .quick-menu {
+    margin-top: 40px;
+}
+#footer .box .quick-menu .item {
+    margin-bottom: 40px;
+}
+#footer .box .quick-menu .item a {
+    color: #204f1a;
+    text-decoration: none;
+}
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color: #204f1a;
+}
+#footer .box form button {
+    background: #362f2f;
+    box-shadow: 5px 5px 4px rgba(red, green, blue, alpha);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+
+#column {
+    width: 1021px;
+    height: 551px;
+    margin: 5px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(12, 12, 12);
+    padding-top: 10px;
+
+    
+    
+}
+#column h2 {
+    text-align: center;
+    margin-bottom: 50px ;
+    font-size: 32px;
+    color: #2b8d55;
+}
+
+#column .container text-center {
+    box-shadow: var(shadow-2);
+    position: relative;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#column a {
+    color: #1d1a1a;
+    text-decoration: none;
+}
+#column a :hover {
+    color: red;
+}
+
+
+#col-banner {
+    padding-top: 20px;
+    border: 2px solid #bcb9b9;
+    padding: 20px;
+    margin: 5px auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 1300px;
+    
+}
+
+#col-banner img {
+    padding-top: 10px;
+    padding-left: 90px;
+}
+
+
+
+#sale {
+    padding-top: 50px;
+    padding-bottom: 78px ;
+    padding-left: 134px;
+    padding-right: 134px;
+}
+#sale .sale-baner {
+    text-align: center;
+    background-color: #5bac7e;
+    font-size: 35px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+
+#sale .sale-baner button {
+    color: #FFF;
+    background-color: red;
+    padding-left: 20px;
+}
+#sale .sale-baner span {
+    color: #FFF;
+    padding-right: 50px;
+}
+
+
+#fake {
+    padding-top: 50px;
+    padding-bottom: 78px ;
+    padding-left: 134px;
+    padding-right: 134px;
+}
+#fake h2 {
+    text-align: center;
+    padding-bottom: 80px;
+    color: #2b8d55;
+
+}
+#fake ul {
+    font-size: 28px;
+    color: #1d1a1a;
+    font-weight:bolder;
+    list-style: none;
+}
+#fake p {
+    color: #00FFFF;
+    font-size: 25px;
+}
+#fake img {
+    width: 850px;
+    
+}
+
+
+.back-to-top {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .back-to-top:hover {
+    opacity: 0.8;
+  }
